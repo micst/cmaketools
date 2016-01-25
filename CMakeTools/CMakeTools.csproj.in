@@ -26,6 +26,7 @@
     <WarningLevel>4</WarningLevel>
     <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
     <CopyVsixExtensionLocation>@NATIVE_SOURCE_DIR@\CMakeToolsSetup\dist</CopyVsixExtensionLocation>
+    <DeployExtension>False</DeployExtension>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,6 +39,7 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
     <CopyVsixExtensionLocation>@NATIVE_SOURCE_DIR@\CMakeToolsSetup\dist</CopyVsixExtensionLocation>
+    <DeployExtension>False</DeployExtension>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CMakeAuthoringScope.cs" />
