@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-    <Product Id="9d8b9d75-0cb2-48b3-8466-8a545007aacc" Name="CMake Tools for Visual Studio 1.4 RC1" Language="1033" Version="1.4.0.0" Manufacturer="David Golub" UpgradeCode="38709d2b-9fe1-448d-8e5d-c55c1555c620">
+    <Product Id="9d8b9d75-0cb2-48b3-8466-8a545007aacc" Name="CMake Tools for Visual Studio 1.4" Language="1033" Version="1.4.0.0" Manufacturer="David Golub" UpgradeCode="38709d2b-9fe1-448d-8e5d-c55c1555c620">
         <Package InstallerVersion="200" Compressed="yes" />
 
         <Media Id="1" Cabinet="CMakeTools.cab" EmbedCab="yes" />
