@@ -58,7 +58,7 @@ namespace CMakeTools
     [ProvideFileFilter(VSConstants.CLSID.MiscellaneousFilesProject_string, "CMake",
         "CMake Files (*.cmake);*.cmake", 10)]
     [ProvideEditorFactory(typeof(CMakeEditorFactory), 108)]
-    [ProvideEditorExtension(typeof(CMakeEditorFactory), ".cmake", 100)]
+    //[ProvideEditorExtension(typeof(CMakeEditorFactory), ".cmake", 100)]
     [ProvideEditorExtension(typeof(CMakeEditorFactory), ".*", 1)]
     [Guid(CMakeGuids.guidCMakeTools)]
     public class CMakePackage : Package, IOleComponent
