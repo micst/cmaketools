@@ -16,3 +16,7 @@ TestResults
 *.log
 *.tlog
 *.lastbuildstate
+
+_ReSharper.Caches
+/CMakeTools.VC.VC.opendb
+/CMakeTools.VC.db
